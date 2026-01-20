@@ -21,8 +21,10 @@ nav a {
 }
 
 /* Hero Section */
+
+
 .hero {
-    background: url("https://via.placeholder.com/1200x400") no-repeat center;
+    background: url("") no-repeat center;
     background-size: cover;
     color: green;
     text-align: center;
@@ -64,3 +66,20 @@ footer {
     text-align: center;
     padding: 10px;
 }
+.gallery-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background-color: #ffffff;
+    color: #2f6b3f;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.gallery-link:hover {
+    background-color: #e5efe8;
+    transform: translateY(-2px);
+}
+
