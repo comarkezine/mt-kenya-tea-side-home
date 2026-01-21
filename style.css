@@ -29,6 +29,11 @@ nav a {
     color: green;
     text-align: center;
     padding: 80px 20px;
+    h3 img {
+  width: 400px;      /* change this value */
+  height: auto;     /* keeps image proportion */
+}
+
 }
 
 .hero button {
@@ -82,4 +87,19 @@ footer {
     background-color: #e5efe8;
     transform: translateY(-2px);
 }
+.btn-airbnb {
+  background-color: #2f6b3f;  /* green */
+  color: #ffffff;
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-airbnb:hover {
+  background-color: #24542f;  /* darker green on hover */
+}
+
+
 
