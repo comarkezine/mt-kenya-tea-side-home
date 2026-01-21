@@ -30,7 +30,7 @@ nav a {
     text-align: center;
     padding: 80px 20px;
     h3 img {
-  width: 400px;      /* change this value */
+  width: 800px;      /* change this value */
   height: auto;     /* keeps image proportion */
 }
 
