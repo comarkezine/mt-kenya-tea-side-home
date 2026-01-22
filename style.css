@@ -113,6 +113,31 @@ footer {
   height: 100%;
   border: 0;
 }
+.video-tour {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  display: block;
+  margin: 20px auto;
+}
+
+
+
+/* If using YouTube embed */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
 
 
 
