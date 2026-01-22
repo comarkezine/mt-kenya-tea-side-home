@@ -123,21 +123,20 @@ footer {
 
 
 
-/* If using YouTube embed */
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  margin-top: 20px;
+.btn-video {
+  background-color: #2f6b3f;   /* green */
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.video-container iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
+.btn-video:hover {
+  background-color: #24542f;
 }
+
 
 
 
